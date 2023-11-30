@@ -46,6 +46,14 @@ p {
   opacity: .7;
 }
 
+.monster {
+  text-decoration: line-through;
+}
+
+.funny {
+  font-size: x-small;
+}
+
 /* Container for Background Images  */
 .bg {
   position: absolute;
