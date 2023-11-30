@@ -1,3 +1,5 @@
+@import url('familjen-grotesk.css');
+
 /* Setup Scrolling */
 html,
 body {
@@ -27,6 +29,20 @@ body {
   padding: 3em;
 }
 
+h1 {
+  font-family: 'FamiljenGrotesk-Italic';
+  font-size: 2em;
+  font-weight: 400; 
+  margin: 0;  
+}
+
+p {
+  font-family: 'FamiljenGrotesk-Regular';
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
 
 /* Container for Background Images  */
 .bg {
