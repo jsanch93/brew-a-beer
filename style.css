@@ -27,6 +27,7 @@ body {
   padding: 3em;
 }
 
+
 /* Container for Background Images  */
 .bg {
   position: absolute;
@@ -41,21 +42,32 @@ body {
 }
 
 .one {
-  background-image: url("https://picsum.photos/1600/800?random=1");
+  background-image: url("field.jpg");
 }
 
 .two {
-  background-image: url("https://picsum.photos/1600/800?random=2");
+  background-image: url("brewery.jpg");
 }
 
 .three {
-  background-image: url("https://picsum.photos/1600/800?random=3");
+  background-image: url("mashtun.jpg");
+
 }
 
 .four {
-  background-image: url("https://picsum.photos/1600/800?random=4");
+  background-image: url("hopping.jpg");
 }
 
 .five {
-  background-image: url("https://picsum.photos/1600/800?random=5");
+  background-image: url("ferment.jpg");
 }
+
+.six {
+  background-image: url("kegs.jpg");
+}
+
+.seven {
+  background-image: url("https://picsum.photos/1600/800?random=7");
+}
+
+
