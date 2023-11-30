@@ -42,6 +42,8 @@ p {
   font-weight: 400;
   margin: 0;
   text-align: center;
+  background-color: blanchedalmond; 
+  opacity: .7;
 }
 
 /* Container for Background Images  */
