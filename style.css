@@ -58,28 +58,28 @@ p {
 }
 
 .one {
-  background-image: url("field.jpg");
+  background-image: url("images/field.jpg");
 }
 
 .two {
-  background-image: url("brewery.jpg");
+  background-image: url("images/brewery.jpg");
 }
 
 .three {
-  background-image: url("mashtun.jpg");
+  background-image: url("images/mashtun.jpg");
 
 }
 
 .four {
-  background-image: url("hopping.jpg");
+  background-image: url("images/hopping.jpg");
 }
 
 .five {
-  background-image: url("ferment.jpg");
+  background-image: url("images/ferment.jpg");
 }
 
 .six {
-  background-image: url("kegs.jpg");
+  background-image: url("images/kegs.jpg");
 }
 
 .seven {
