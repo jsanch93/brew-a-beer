@@ -1,3 +1,4 @@
+@import "https://unpkg.com/open-props";
 @import url('familjen-grotesk.css');
 
 /* Setup Scrolling */
@@ -22,7 +23,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   position: relative;
   box-sizing: border-box;
 
@@ -30,10 +30,14 @@ body {
 }
 
 h1 {
-  font-family: 'FamiljenGrotesk-Italic';
+  font-family: 'FamiljenGrotesk-BoldItalic';
   font-size: 2em;
   font-weight: 400; 
   margin: 0;  
+  background-color: blanchedalmond;
+  padding: .25em;
+  border-radius: var(--border-size-4);
+  opacity: .7;
 }
 
 p {
@@ -42,12 +46,21 @@ p {
   font-weight: 400;
   margin: 0;
   text-align: center;
-  background-color: blanchedalmond; 
+  color: #27B127;
+  background-color: black; 
   opacity: .7;
+  border-radius: var(--border-size-5);
+  padding: 1.5em;
 }
 
 .monster {
   text-decoration: line-through;
+}
+
+.sub {
+  font-size: 2.5em;
+  color: antiquewhite;
+  font-family: 'FamiljenGrotesk-SemiBoldItalic';
 }
 
 .funny {
