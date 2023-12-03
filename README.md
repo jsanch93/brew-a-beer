@@ -6,3 +6,4 @@
 ## Citation
 [wiki] (https://en.wikipedia.org/wiki/Brewing)
 [fontshare] (https://www.fontshare.com/fonts/familjen-grotesk)
+[openprops] (https://open-props.style/)
