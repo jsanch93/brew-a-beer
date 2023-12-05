@@ -31,12 +31,6 @@ body {
 
 h1 {
   font-family: 'FamiljenGrotesk-BoldItalic';
-  font-size: 2em;
-  font-weight: 400; 
-  background-color: blanchedalmond;
-  padding: .25em;
-  border-radius: var(--border-size-4);
-  opacity: .7;
 }
 
 p {
@@ -45,11 +39,12 @@ p {
   font-weight: 400;
   margin: 0;
   text-align: center;
-  color: #27B127;
-  background-color: black; 
-  opacity: .7;
+  color: whitesmoke;
   border-radius: var(--border-size-5);
   padding: 1em;
+  background-color: #4D4D4D;
+  opacity: .7;
+  width: 55%;
 }
 
   img {
@@ -84,18 +79,32 @@ a {
 
 .brewing {  
   font-size: 1.5em;
-  background-color: #F2C641;
-  color: #4D4D4D;
+  background-color: #4D4D4D; 
+  color: #ffffff;
   padding: .5em;
+  opacity: .8;
 }
 
 .brew {
   text-align: center;
-  background-color: #F2C641;
-  color: #4D4D4D;
+  background-color: #4D4D4D;
+  color: white;
+  border-radius: var(--border-size-3);
+  padding: .25em;
+  opacity: .8;
+}
+
+.title  {
+  font-size: 2em;
+  color: #D95C4E;
+  text-shadow: #000000;
+  position: relative;
+  bottom: 150px;
+  right: 450px;
 }
 
 
+  
 
 
 /* Container for Background Images  */
@@ -111,21 +120,40 @@ a {
   background-repeat: no-repeat;
 }
 
+/* fixed images */
+.hop {
+  position: fixed;
+  top: 0px;
+}
+
+
+
+
+.back-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
 .one {
-  background-image: url("images/field.jpg");
+   background-image: url("images/grain.jpg"); 
+ 
 }
 
 .two {
-  background-image: url("images/brewery.jpg");
+  background-image: url("images/brewery.jpg"); 
+  
 }
 
 .three {
   background-image: url("images/hopping.jpg");
-  
 }
 
 .four {
-  background-image: url("images/ferment.jpg");
+  background: var(--gradient-6);  
 }
 
 .five {
@@ -133,11 +161,12 @@ a {
 }
 
 .six {
-  background-image: url("images/kegs.jpg");
+  background-image: url("images/whirlpool.mp4"); 
+  /* background-color: #D2B48C; */
 }
 
 .seven {
-  background-image: url("https://picsum.photos/1600/800?random=7");
+  background-image: url("images/coolship.jpeg");
 }
 
 .copper {
@@ -155,6 +184,10 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.ingredients {
+  background-color: aqua;
 }
 
 #myVideo {
