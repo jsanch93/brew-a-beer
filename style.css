@@ -33,7 +33,6 @@ h1 {
   font-family: 'FamiljenGrotesk-BoldItalic';
   font-size: 2em;
   font-weight: 400; 
-  margin: 0;  
   background-color: blanchedalmond;
   padding: .25em;
   border-radius: var(--border-size-4);
@@ -50,8 +49,15 @@ p {
   background-color: black; 
   opacity: .7;
   border-radius: var(--border-size-5);
-  padding: 1.5em;
+  padding: 1em;
 }
+
+  img {
+    position: relative;
+    top: 10px;
+    border-radius: var(--border-size-3);
+  }
+
 
 .monster {
   text-decoration: line-through;
@@ -63,9 +69,34 @@ p {
   font-family: 'FamiljenGrotesk-SemiBoldItalic';
 }
 
+a {
+  font-size: 1.5em;
+  color: antiquewhite;
+  font-family: 'FamiljenGrotesk-SemiBoldItalic';
+}
+
 .funny {
   font-size: x-small;
 }
+
+/* brewing.html */
+
+
+.brewing {  
+  font-size: 1.5em;
+  background-color: #F2C641;
+  color: #4D4D4D;
+  padding: .5em;
+}
+
+.brew {
+  text-align: center;
+  background-color: #F2C641;
+  color: #4D4D4D;
+}
+
+
+
 
 /* Container for Background Images  */
 .bg {
@@ -89,16 +120,16 @@ p {
 }
 
 .three {
-  background-image: url("images/mashtun.jpg");
-
+  background-image: url("images/hopping.jpg");
+  
 }
 
 .four {
-  background-image: url("images/hopping.jpg");
+  background-image: url("images/ferment.jpg");
 }
 
 .five {
-  background-image: url("images/ferment.jpg");
+  background-image: url("images/mashtun.jpg");
 }
 
 .six {
@@ -109,4 +140,28 @@ p {
   background-image: url("https://picsum.photos/1600/800?random=7");
 }
 
+.copper {
+  background-image: url(images/copper.jpg);
+}
+
+.lauter {
+  background-image: url(images/lauter.jpeg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 
