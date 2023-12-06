@@ -97,8 +97,8 @@ a {
 .title  {
   font-size: 2em;
   color: #D95C4E;
-  text-shadow: #000000;
-  position: relative;
+  text-shadow: #FC0 1px 0 10px;
+  position: static;
   bottom: 150px;
   right: 450px;
 }
