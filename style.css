@@ -171,15 +171,15 @@ a {
 }
 
 .copper {
-  background-image: url(images/copper.jpg);
+  background-image: url("images/copper.jpg");
 }
 
 .hopback {
-  background-image: url(images/ferment.jpg);
+  background-image: url("images/ferment.jpg");
 }
 
 .lauter {
-  background-image: url(images/lauter.jpeg);
+  background-image: url("images/lauter.jpeg");
   position: absolute;
   top: 0;
   left: 0;
